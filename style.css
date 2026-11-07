@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(135deg, #ffc2d1 0%, #ffb3c6 50%, #ff8fab 100%);
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.page-header {
+    background: linear-gradient(90deg, #ff4d6d 0%, #ff0054 100%);
+}
+
+.custom-title {
+    color: #ff0054;
+    text-shadow: 1px 1px 4px rgba(255, 105, 180, 0.4);
+}
+
+.custom-section {
+    background-color: rgba(255, 240, 245, 0.9);
+    backdrop-filter: blur(10px);
+    border: 3px solid #ff758f;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(255, 77, 109, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(255, 20, 147, 0.35);
+}
+
+.card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease !important;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 35px rgba(255, 0, 84, 0.4) !important;
+    border-color: #ff0054 !important;
+}
+
+.btn, .badge {
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.btn:hover, .badge:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.glitter-text {
+    background: linear-gradient(45deg, #fff, #ffb3c6);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+.nav-link {
+    transition: all 0.3s ease !important;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+    text-shadow: 0 0 15px #fff, 0 0 20px #ffb3c6;
+    transform: scale(1.05);
+}
+
+.btn-glitter {
+    background: linear-gradient(45deg, #ff0054, #ff8fab);
+    color: white !important;
+    border: none;
+    box-shadow: 0 4px 15px rgba(255, 0, 84, 0.4) !important;
+    transition: all 0.3s ease !important;
+}
+
+.btn-glitter:hover {
+    box-shadow: 0 0 20px #ff0054, 0 0 30px #ff8fab !important;
+    transform: translateY(-5px) scale(1.05) !important;
+}
+
+.btn-neon {
+    background-color: transparent;
+    color: #ff0054 !important;
+    border: 2px solid #ff0054;
+    box-shadow: 0 0 10px rgba(255, 0, 84, 0.3), inset 0 0 10px rgba(255, 0, 84, 0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+.btn-neon:hover {
+    background-color: #ff0054;
+    color: white !important;
+    box-shadow: 0 0 20px #ff0054, inset 0 0 20px #ff0054 !important;
+    transform: translateY(-5px) scale(1.05) !important;
+}
